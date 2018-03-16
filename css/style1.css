@@ -1,11 +1,11 @@
 #banner-main-text {
-    color:rgba(255, 255, 255, 0.699);
+    color:rgba(255, 255, 255);
     font-size:0.8em;
 }
 
 #banner-sub-text {
     font-size:0.4em;
-    color:rgba(255, 255, 255, 0.678);
+    color:rgba(255, 255, 255);
     margin-bottom:10px;
 }
 #banner-border {
@@ -28,6 +28,10 @@
     background-color: transparent;
     color:#01bcfa;
     
+}
+
+.modal .close {
+    font-size:3em;
 }
 /*
 .border {
@@ -79,3 +83,14 @@
     margin:10px;
     color:white;
 }
+
+#skills-icons > div > *{
+    color:white;
+    transition:color 1s;
+}
+
+#skills-icons > div > *:hover {
+    color:black;
+    transition:color 1s;
+}
+
